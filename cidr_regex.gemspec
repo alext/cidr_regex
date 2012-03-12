@@ -13,5 +13,5 @@ Gem::Specification.new do |gem|
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   gem.name          = "cidr_regex"
   gem.require_paths = ["lib"]
-  gem.version       = CidrRegex::VERSION
+  gem.version       = CIDRRegex::VERSION
 end

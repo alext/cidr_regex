@@ -1,5 +1,5 @@
 require "cidr_regex/version"
 
-module CidrRegex
+module CIDRRegex
   # Your code goes here...
 end
