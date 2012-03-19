@@ -15,5 +15,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = CIDRRegex::VERSION
 
+  gem.add_dependency "netaddr", "~> 1.5.0"
   gem.add_development_dependency "rspec", "~> 2.8.0"
 end
